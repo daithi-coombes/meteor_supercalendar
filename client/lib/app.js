@@ -9,7 +9,7 @@ SuperCalendar = {
       });
     },
     onDayClick: function (e, t, data) {
-      var target = event;
+      var target = e;
       var date = data.date;
       var month = ('0' + (date.getMonth() + 1)).slice(-2);
       var day = ('0' + date.getDate()).slice(-2);
@@ -77,4 +77,3 @@ SuperCalendar = {
     });
   }
 };
-
